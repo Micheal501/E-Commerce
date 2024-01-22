@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+
+# Build files
+/dist/
+/.cache/
+
+# IDE/Text Editor specific files
+.idea/
+.vscode/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.~
+
+# Test coverage
+coverage/
+
+# Jest
+jest.config.js
+coverage/
+
+# Vite
+vite.config.js
+
+# Compiled output
+dist/
+
+# Local environment variables
+.env.local
+
+# Dependency directories
+.pnpm/

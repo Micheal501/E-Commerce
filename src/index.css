@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ellipsis-text {
+    white-space: nowrap;       /* Prevents text from wrapping */
+    overflow: hidden;          /* Hides any content that overflows the container */
+    text-overflow: ellipsis;   
+    cursor: pointer;           
+}
+html, body 
+  {
+    @apply bg-slate-900
+  }
